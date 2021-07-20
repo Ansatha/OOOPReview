@@ -5,4 +5,4 @@
   - Métodos getter an setter para todos los atributos.
   - Un método para imprimir todas los atributos con un formato especial.
   - Debido a estos cambios, el archivo testClass.ts contiene errores que lo hacen inservible,
-    por ello se ELIMINA y se crea testClass2.ts. 
+    por ello se sustituye por testClass2.ts. 
