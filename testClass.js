@@ -7,4 +7,4 @@ var myPhone2 = new mobileClass_1.Mobile('Galaxy', '10', 'Samsung', 16, 'black', 
 console.log('\n', '1.Mostrar todos los atributos de todos los objetos:\n\n', myPhone0, '\n\n', myPhone1, '\n\n', myPhone2);
 myPhone0.is5G = true;
 myPhone0.cameraNumber = 4;
-console.log('\n', '1.Mostrar todos los atributos de todos los objetos, tras el cambio:\n\n', myPhone0, '\n\n', myPhone1, '\n\n', myPhone2);
+console.log('\n', '2.Mostrar todos los atributos de todos los objetos, tras el cambio:\n\n', myPhone0, '\n\n', myPhone1, '\n\n', myPhone2);
