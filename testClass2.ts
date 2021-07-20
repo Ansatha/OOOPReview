@@ -7,7 +7,13 @@ let myPhone2:Mobile = new Mobile ('Galaxy', '10', 'Samsung', 16, 'black', true, 
 console.log('\n', '1.Mostrar todos los atributos de todos los objetos:\n\n',
     myPhone0, '\n\n', myPhone1, '\n\n', myPhone2);
 
-myPhone0.is5G = true;
-myPhone0.cameraNumber = 4;
+myPhone0.setIs5G(true);
+myPhone0.setCameraNumber(4);
 console.log('\n', '2.Mostrar todos los atributos de todos los objetos, tras el cambio:\n\n',
     myPhone0, '\n\n', myPhone1, '\n\n', myPhone2);
+
+let myPhones:Mobile[] = [myPhone0, myPhone1, myPhone2];
+ for (let phone in myPhones)
+ {
+     myPhones[phone].printFeatures();
+ };
